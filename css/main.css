@@ -14,6 +14,7 @@ body{
     --background-image: url(./assets/img/fondo.jpg);
     --color-icons: white;
     --general-font: "Poiret One", sans-serif;
+    --profile-image:url(./assets/img/profile.jpeg)
 }
 a{
     text-decoration: none;
@@ -188,4 +189,72 @@ footer{
 footer p{
     color: white;
     margin-top: 30px;
+}
+.blogpost-img-container{
+    padding: 0 50px 40px;
+
+}
+.blogpost-img-container img{
+    width: 100%;
+}
+.blogpost-main-container{
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3{
+    border-bottom: 2px solid #cdd2da;
+    padding-bottom: 10px;
+}
+.blogpost-main-container article h1{
+    font-size: 35px;
+}
+.contact-main-container{
+    width: 100%;
+    height: 300px;
+    background-color: #cdd2da;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+}
+.contact-main-container .contact-left, .contact-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    justify-items: end;
+}
+.contact-main-container .link1, .link2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.contact-main-container .contact-left img,  .contact-right img{
+    width: 100px;
+    height: 100px;
+    padding-right: 25px;
+}
+.profile-main-container{
+    padding: 70px 40px;
+    background-color: #cdd2da;
+    margin-bottom: 50px;
+}
+.profile-main-container .profile-container{
+    display: flex;
+    align-items: center;
+}
+.profile-main-container img{
+    width: 350px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.profile-main-proyects{
+    padding: 0 50px 40px;
+}
+.profile-main-proyects h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.proyects-name-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
 }
